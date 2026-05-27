@@ -32,10 +32,10 @@ instead of a wrong answer.
 
 ```
 CodeAlpha_FAQChatbot/
-├── app.py          - Streamlit chat interface
-├── chatbot.py      - FAQChatbot class with TF-IDF matching logic
-├── faqs.py         - 50 Q&A pairs knowledge base
-└── requirements.txt
+|-- app.py          - Streamlit chat interface
+|-- chatbot.py      - FAQChatbot class with TF-IDF matching logic
+|-- faqs.py         - 50 Q&A pairs knowledge base
+|-- requirements.txt
 ```
 
 ## Dependencies
