@@ -38,6 +38,11 @@ CodeAlpha_FAQChatbot/
 |-- requirements.txt
 ```
 
+## Screenshots
+
+![Welcome screen](screenshots/welcome.png)
+![Chat demo](screenshots/demo.png)
+
 ## Dependencies
 
 `streamlit` | `scikit-learn` | `spacy`

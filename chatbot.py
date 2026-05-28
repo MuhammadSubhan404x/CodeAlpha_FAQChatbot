@@ -58,7 +58,7 @@ class FAQChatbot:
     def respond(self, user_input):
         raw = user_input.strip()
         if not raw:
-            return None, 0.0
+            return "", 0.0
 
         lowered = raw.lower()
 

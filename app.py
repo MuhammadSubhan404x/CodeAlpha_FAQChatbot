@@ -79,9 +79,10 @@ if user_input:
 
     answer, score = bot.respond(user_input)
 
-    st.session_state.messages.append({
-        "role": "assistant",
-        "content": answer,
-        "score": score
-    })
+    if answer:
+        st.session_state.messages.append({
+            "role": "assistant",
+            "content": answer,
+            "score": score
+        })
     st.rerun()
